@@ -1,0 +1,102 @@
+body {
+    background-color: #1d1d1d;
+    color: #ffffff;
+}
+
+.sidebar {
+    min-height: 100vh;
+    border-right: 1px solid #333;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.card {
+    background-color: #2c2c2c;
+    border: none;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.list-group-item {
+    border: 1px solid #444;
+}
+
+.list-group-item-action:hover {
+    background-color: #333;
+}
+
+.btn-outline-light.active {
+    background-color: #ff6f61;
+    color: white;
+    border-color: #ff6f61;
+}
+
+.btn-danger {
+    background-color: #ff6f61;
+}
+.scrollable-pane {
+    height: 400px;
+    overflow-x: auto;
+}
+.scrollable-order-list {
+    height: 300px;
+    overflow-y: auto;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.slide {
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+#icon i{
+    color: red;
+    cursor: pointer;
+}
+#delete i{
+    color: red;
+    cursor: pointer;
+}
+#fire{
+    color: red; 
+}
+#btn{
+    width: 100%;
+}
+table{
+    margin: auto;
+    
+   }
+table th{
+    width: 25%;
+}
+table td{
+    text-align: center;
+    width: 1%;
+}
+#hader{
+    text-align: center;
+    margin-top: 2%;
+}
+#p1{
+    text-align: center;
+}
